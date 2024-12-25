@@ -7,3 +7,30 @@ server:
 
 konsole:
   prefix: .
+  
+core:
+
+  block: repeating_command_block
+  type: destroy
+  name: {"translate":"<[%s]>","with":[{"text":"Object Core","color":"#9757b3"}],"color":"#62068a"}
+
+  start:
+    x: 0
+    y: 0
+    z: 0
+  end:
+    x: 15
+    y: 0
+    z: 15
+
+selfcare:
+  vanish: true
+  mute: true
+  cspy: true
+  gamemode: true
+  op: true
+  icu: true
+  god: true
+  nick: true
+  username: true
+  prefix: true
